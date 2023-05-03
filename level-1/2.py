@@ -15,6 +15,15 @@ def divided_on(x, y):
 divided_on(3, 5)
 
 
+# Solution 2
+print("---> Solution 2 ")
+def divided_on(x, y):
+    nums = [num for num in range(1, 101) if (num % x == 0) and (num % y == 0)]
+    return nums
+
+
+print(divided_on(3, 5))
+
 
 
 
