@@ -3,6 +3,7 @@ Create a python function that takes 2 numbers x,y and prints
 all the numbers between 1 and 100 than can be divided on x,y
 """
 
+# Solution 1
 nums = []
 def divided_on(x, y):
     for num in range(1, 101):
