@@ -11,3 +11,16 @@ def count_letters(phrase):
     print(index)
 
 count_letters("is is is is")
+
+
+# Solution 2
+
+
+def count_letters(phrase):
+    new_str = ""
+    for s in phrase:
+        if s != " ":
+            new_str += s
+    print(len(new_str))
+
+count_letters("is is is i")
