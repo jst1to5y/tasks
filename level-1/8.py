@@ -13,3 +13,11 @@ def divided_by_y(x, y):
 
 divided_by_y(50, 3)
 
+# Solution 2
+
+def divided_by_y(x, y):
+    nums = [num for num in range(x, 101) if num % y == 0]
+    print(nums)
+
+
+divided_by_y(50, 3)
