@@ -20,3 +20,8 @@ def upperCase(x):
 
 upper_names = list(map(upperCase, names))
 print(f"Functional programming: {upper_names}")
+
+
+# Functional programming 
+new = map(str.upper, names)
+print(list(new))
