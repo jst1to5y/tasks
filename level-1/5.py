@@ -2,7 +2,16 @@
 Create a function that takes a sentence and prints how many words in the sentence (do not count the spaces)
 """
 
-# Solution 1
+# solution
+def count_w(sentence):
+    split_sentence = sentence.split(" ")
+    print(f"Words count: {len(split_sentence)}")
+
+
+count_w("hello there")
+
+
+# Solution 2
 def count_letters(phrase):
     index = 0
     for i in phrase:
@@ -14,7 +23,6 @@ count_letters("is is is is")
 
 
 # Solution 2
-
 
 def count_letters(phrase):
     new_str = ""
